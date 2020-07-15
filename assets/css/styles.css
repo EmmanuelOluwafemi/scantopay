@@ -158,3 +158,85 @@ footer p{
     padding: 30px 0;
     color: #ffffff;
 }
+
+@media (max-width: 576px) { 
+    .navbar-brand.logo{
+        font-size: 16px !important;
+    }
+
+    h1{
+        font-style: normal;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 55px;
+    }
+
+    h2{
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    h6{
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    .hero h6.text-primary{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: 21px;
+    }
+
+    .hero{
+        width: 100vw;
+    }
+
+    .hero h1{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    nav.navbar{
+        height: 40px;
+        padding-left: 0px;
+    }
+
+    .cta input[type='text']{
+        width: 98%;
+        height: 51px;
+        border: 1px solid #063C92;
+    }
+
+    .cta input[type='submit']{
+        height: 51px;
+        width: 98%;
+        margin-top: 10px;
+    }
+
+    .hero-img-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero img{
+        width: 250px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .about{
+        display: block;
+    }
+
+    .screen-image{
+        display: flex;
+        justify-content: flex-start;
+    }
+ }
