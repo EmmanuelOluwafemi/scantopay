@@ -316,8 +316,8 @@ footer p{
     }
 
     .hero img{
-        width: 300px;
-        height: 500px !important;
+        width: 200px;
+        height: auto !important;
         margin: 0 auto;
     }
 
