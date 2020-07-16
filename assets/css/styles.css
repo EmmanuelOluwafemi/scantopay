@@ -9,6 +9,7 @@ body{
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     background: #F9F9F9;
+    width: 100vw;
 }
 
 header{
@@ -27,7 +28,7 @@ header{
 h1{
     font-style: normal;
     font-weight: 800;
-    font-size: 77.6639px;
+    font-size: 70px;
     line-height: 95px;
 }
 
@@ -259,7 +260,13 @@ footer p{
 
     .screen-image{
         display: flex;
-        justify-content: flex-start;
+        justify-content: center !important;
+        align-items: center;
+    }
+
+    .about .row img{
+        padding: 0 !important;
+        margin: 0;
     }
  }
 
@@ -372,6 +379,10 @@ footer p{
 
 
 @media (min-width: 992px) and (max-width: 1200px) { 
+    header{
+        min-height: 70vh;
+    }
+
     .hero-img-container{
         width: 100%;
         display: flex;
