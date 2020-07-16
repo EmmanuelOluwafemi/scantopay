@@ -88,13 +88,13 @@ nav.navbar{
     margin-top: 21px;
 }
 
-.cta{
+.cta form{
     display: flex;
     align-items: flex-start;
     margin-top: 40px;
 }
 
-.cta input[type='text']{
+.cta input[type='email']{
     width: 528px;
     height: 51px;
     border: 1px solid #063C92;
@@ -224,7 +224,7 @@ footer p{
         display: block;
     }
 
-    .cta input[type='text']{
+    .cta input[type='email']{
         width: 98%;
         height: 51px;
         border: 1px solid #063C92;
@@ -264,7 +264,7 @@ footer p{
  }
 
 
-@media (min-width: 768px) and (max-width: 992px){ 
+@media (max-width: 992px){ 
     .navbar-brand.logo{
         font-size: 16px;
     }
@@ -327,16 +327,23 @@ footer p{
     }
 
     .cta{
-        display: block;
+        width: 100%;
     }
 
-    .cta input[type='text']{
+    .cta form{
+        display: block;
+        width: 100%;
+    }
+
+    .cta input[type='email']{
+        display: block;
         width: 98%;
         height: 51px;
         border: 1px solid #063C92;
     }
 
     .cta input[type='submit']{
+        display: block;
         height: 51px;
         width: 98%;
         margin-top: 10px;
